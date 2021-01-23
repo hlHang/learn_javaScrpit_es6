@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let变量作用范围</title>
+</head>
+<body>
+
+</body>
+<script>
+    // es6如何定义变量， 定义变量特点
+    // js定义  var a=10;
+    // es6写法定义变量，使用关键字 let let a = 10;
+    // 1.创建代码块定义变量
+    {
+        var a = 10
+        let b = 10
+    }
+    // 2.在代码块，外面输出
+    console.log(a)
+    console.log(b) // Uncaught ReferenceError: b is not defined
+</script>
+</html>

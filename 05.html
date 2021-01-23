@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象解构</title>
+</head>
+<body>
+<script>
+    //定义对象
+    let user = {"name":"lucy","age":20}
+
+    // 老版本
+    let name1 = user.name
+    let age1 = user.age
+    console.log(name1 + "==" + age1)
+
+    // es6写法
+    let {name,age} = user
+    console.log(name + "**" + age)
+</script>
+</body>
+</html>
