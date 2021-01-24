@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>箭头函数</title>
+</head>
+<body>
+<script>
+    // 1 传统方式创建方法
+    let f1 = function (m) {
+        return m + 1
+    }
+    console.log(f1(2))
+
+    // 使用箭头函数改造
+    const f2 = m => m
+    console.log(f2(2))
+
+    // 2 复杂的方法
+    let f3 = function (a,b) {
+        return a+b
+    }
+
+    console.log(f3(1,2))
+
+    // 箭头函数优化
+    const f4 = (a,b) => a+b
+    console.log(f4(4,5))
+
+
+</script>
+</body>
+</html>
